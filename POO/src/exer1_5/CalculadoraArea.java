@@ -13,8 +13,7 @@ public class CalculadoraArea {
 		for (int i =0 ; i< areas.length;i++ ) {
 			soma+= areas[i].calcularArea();
 		}
-		
-		System.out.println("a soma é : "+soma);
+		System.out.println("a soma é : ");
 		return soma;
 	}
 	
