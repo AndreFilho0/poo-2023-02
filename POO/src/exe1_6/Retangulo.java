@@ -1,6 +1,6 @@
 package exe1_6;
 
-public class Retangulo extends Quadrado{
+public class Retangulo extends Quadrado implements Desenho{
     private double altura;
 
     public Retangulo(){
@@ -22,5 +22,8 @@ public class Retangulo extends Quadrado{
         return (2*getLado()+2*altura);
     }
 
-
+    @Override
+    public String desenhar(){
+        return "desenhando a figura retangulo";
+    }
 }

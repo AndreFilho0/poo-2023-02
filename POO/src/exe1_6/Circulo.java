@@ -1,6 +1,7 @@
 package exe1_6;
 
-public class Circulo extends Figura{
+public class Circulo extends Figura implements Desenho{
+
     private double raio;
 
     public Circulo() {
@@ -26,5 +27,10 @@ public class Circulo extends Figura{
     @Override
     public double calculaPerimetro() {
         return 2*Math.PI*raio;
+    }
+
+
+    public String desenhar() {
+        return "desenhando a figura circulo";
     }
 }

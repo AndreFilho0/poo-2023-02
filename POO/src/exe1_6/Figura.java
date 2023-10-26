@@ -4,4 +4,7 @@ public abstract class Figura {
     public abstract double calculaArea();
 
     public abstract double calculaPerimetro();
+
+    public abstract String desenhar();
+
 }

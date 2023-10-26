@@ -1,6 +1,6 @@
 package exe1_6;
 
-public class Triangulo extends Figura{
+public class Triangulo extends Figura implements Desenho{
     private double base;
     private double lado1;
     private double lado2;
@@ -57,5 +57,10 @@ public class Triangulo extends Figura{
     @Override
     public double calculaPerimetro() {
         return (lado1+lado2+base);
+    }
+
+    @Override
+    public String desenhar() {
+        return "desenhando a figura Triangulo";
     }
 }

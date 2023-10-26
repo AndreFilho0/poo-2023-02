@@ -1,6 +1,6 @@
 package exe1_6;
 
-public class Quadrado extends Figura{
+public class Quadrado extends Figura implements Desenho{
     private double lado;
 
     public Quadrado() {
@@ -26,5 +26,10 @@ public class Quadrado extends Figura{
     @Override
     public double calculaPerimetro() {
         return 4*lado;
+    }
+
+
+    public String desenhar() {
+        return "desenhando a figura quadrado";
     }
 }
