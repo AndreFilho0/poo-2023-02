@@ -32,24 +32,85 @@ public class ExemploJanelaSwimg {
         panel.add(valor2);
 
 
-        JLabel terceiroValor = new JLabel("valor 3:");
-        terceiroValor.setBounds(20, 100, 80, 25);
-        panel.add(terceiroValor);
-        JTextField valor3= new JTextField(10);
-        valor3.setBounds(100, 100, 165, 25);
-        panel.add(valor3);
+        JLabel Resultado = new JLabel("Resultado:");
+        Resultado.setBounds(20, 100, 80, 25);
+        panel.add(Resultado);
+        JTextField resultado= new JTextField(10);
+        resultado.setBounds(100, 100, 165, 25);
+        panel.add(resultado);
 
-        JButton somaB = new JButton("soma");
+        JButton somaB = new JButton("+");
         somaB.setBounds(20, 140, 50, 25);
         panel.add(somaB);
         JButton subtracaoB = new JButton("-");
-        subtracaoB.setBounds(50, 140, 50, 25);
+        subtracaoB.setBounds(70,140, 50, 25);
         panel.add(subtracaoB);
         JButton multpB = new JButton("x");
-        multpB.setBounds(80, 140, 50, 25);
+        multpB.setBounds(120, 140, 50, 25);
         panel.add(multpB);
+        JButton divB = new JButton("/");
+        divB.setBounds(170, 140, 50, 25);
+        panel.add(divB);
 
+        somaB.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    double v1 = Double.parseDouble(valor1.getText());
+                    double v2 = Double.parseDouble(valor2.getText());
+                    String Result = String.valueOf(v1 + v2);
+                    resultado.setText(Result);
+                }catch (NumberFormatException ex){
+                    resultado.setText("só aceitamos números");
 
+                }
+
+            }
+        });
+
+        subtracaoB.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    double v1 = Double.parseDouble(valor1.getText());
+                    double v2 = Double.parseDouble(valor2.getText());
+                    String Result = String.valueOf(v1 - v2);
+                    resultado.setText(Result);
+                }catch (NumberFormatException ex){
+                    resultado.setText("só aceitamos números");
+
+                }
+
+            }
+        });
+
+        multpB.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    double v1 = Double.parseDouble(valor1.getText());
+                    double v2 = Double.parseDouble(valor2.getText());
+                    String Result = String.valueOf(v1 *v2);
+                    resultado.setText(Result);
+                }catch (NumberFormatException ex){
+                    resultado.setText("só aceitamos números");
+
+                }
+
+            }
+        });
+
+        divB.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    double v1 = Double.parseDouble(valor1.getText());
+                    double v2 = Double.parseDouble(valor2.getText());
+                    String Result = String.valueOf(v1/v2);
+                    resultado.setText(Result);
+                }catch (NumberFormatException ex){
+                    resultado.setText("só aceitamos números");
+
+                }
+
+            }
+        });
 
 
 
