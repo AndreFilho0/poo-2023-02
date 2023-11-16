@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b7ce3f5-3ac8-44f3-aa03-ad4b10c5b69c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/src/exer1_8/ExemploJanelaSwimg.java" beforeDir="false" afterPath="$PROJECT_DIR$/POO/src/exer1_8/ExemploJanelaSwimg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +66,31 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExemploJanelaSwimg">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exer1_9" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="ExemploJanelaSwimg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exer1_8.ExemploJanelaSwimg" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exer1_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exer1_9.Principal" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exer1_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.ExemploJanelaSwimg" />
         <item itemvalue="Application.TesteFiguras" />
         <item itemvalue="Application.TesteFigurasGeometricas" />
@@ -129,7 +147,8 @@
       <workItem from="1699278312016" duration="465000" />
       <workItem from="1699278780085" duration="612000" />
       <workItem from="1699546619508" duration="3776000" />
-      <workItem from="1699876936321" duration="2765000" />
+      <workItem from="1699876936321" duration="3512000" />
+      <workItem from="1700150297797" duration="4454000" />
     </task>
     <servers />
   </component>
