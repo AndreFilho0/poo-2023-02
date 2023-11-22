@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7ce3f5-3ac8-44f3-aa03-ad4b10c5b69c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +73,26 @@
       <recent name="exer1_9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.SwingJavaioEscrita">
     <configuration name="ExemploJanelaSwimg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exer1_8.ExemploJanelaSwimg" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exer1_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.Files" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteFiguras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exe1_6.TesteFiguras" />
+    <configuration name="SwingBuscaAquivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.SwingBuscaAquivo" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exe1_6.*" />
+          <option name="PATTERN" value="teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteFigurasGeometricas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exer1_5.TesteFigurasGeometricas" />
+    <configuration name="SwingJavaioEscrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.SwingJavaioEscrita" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exer1_5.*" />
+          <option name="PATTERN" value="teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwingJavaioEscrita" />
+        <item itemvalue="Application.SwingBuscaAquivo" />
+        <item itemvalue="Application.Files" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.ExemploJanelaSwimg" />
-        <item itemvalue="Application.TesteFiguras" />
-        <item itemvalue="Application.TesteFigurasGeometricas" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +165,8 @@
       <workItem from="1699546619508" duration="3776000" />
       <workItem from="1699876936321" duration="3512000" />
       <workItem from="1700150297797" duration="4454000" />
+      <workItem from="1700651335205" duration="1387000" />
+      <workItem from="1700686974362" duration="3960000" />
     </task>
     <servers />
   </component>
